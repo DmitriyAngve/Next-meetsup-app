@@ -1,4 +1,3 @@
-import React from "react";
 import MeetupList from "../components/meetups/MeetupList";
 
 const DUMMY_MEETUPS = [
@@ -6,7 +5,7 @@ const DUMMY_MEETUPS = [
     id: "m1",
     title: "A First Meetup",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/San_Francisco_Collage_Av9.jpg/800px-San_Francisco_Collage_Av9.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/1280px-Stadtbild_M%C3%BCnchen.jpg",
     address: "Some address 5, 12345 Some City",
     description: "This is a first meetup!",
   },
@@ -14,8 +13,8 @@ const DUMMY_MEETUPS = [
     id: "m2",
     title: "A Second Meetup",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/San_Francisco_Collage_Av9.jpg/800px-San_Francisco_Collage_Av9.jpg",
-    address: "Some address 6, 123456 Some City",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/1280px-Stadtbild_M%C3%BCnchen.jpg",
+    address: "Some address 10, 12345 Some City",
     description: "This is a second meetup!",
   },
 ];
