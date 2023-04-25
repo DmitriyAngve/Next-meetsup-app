@@ -1,10 +1,13 @@
-import { Fragment } from "react";
+import MeetupDetail from "../../components/meetups/MeetupDetail";
 
 function MeetupDetails() {
   return (
-    <Fragment>
-      <img src="" alt="" />
-    </Fragment>
+    <MeetupDetail
+      image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/1280px-Stadtbild_M%C3%BCnchen.jpg"
+      title="First Meetup"
+      address="Street 5, Some City!"
+      description="This is a first meetup!"
+    />
   );
 }
 
@@ -34,5 +37,14 @@ export default MeetupDetails;
 // 351. Adding Custom Components & CSS Modules
 //
 // For now I'll add a new functional Component inside of that "[meetupId]" page.
+// Create new Component MeetupDetail.js and grap this code to there.
+
+// GO TO Meetupdetail.js --- >>>
+
+// BACK
+// 1.2
+// Add "<Meetupdetail />"
+// And now we just need to pass that data, which we expect in that component through props into that "MeetupDetail" Component.
+// Add all props.
 //
 // 351. Adding Custom Components & CSS Modules
