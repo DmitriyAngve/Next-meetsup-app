@@ -36,3 +36,21 @@ export default HomePage;
 // Then we pass it "DUMMY_MEETSUP" to prop.
 //
 // 347. Outputting a List of Meetups
+
+/////////////////////////////////
+
+// 349. The "_app.js" File & Layout Wrapper
+//
+// Components in "layout" folder gves us a general layout and also a main navigation bar, which holds some list items with links, let's use that!
+// "Layout" component is built such that we can wrap it around other components, so that we can wrap it around our content that should be framed by that layout because layout, this component uses props children to take what's between the openiing and closing layout text and wrap this component around that content.
+// That means we can wrap "meetup" list with "Layout" Component. "return <Layout><MeetupList meetups={DUMMY_MEETUPS} /></Layout>;"
+// If we do that, we get an error! ("Link is not defined")
+// This error because in that "MainNavigation.js" Component, I'm using "Link" Component but I'm not importing it deliberately. Let's fix it!
+// 1.1
+// import and add "href", coz "Next.js" wants this ref prop
+// Now we want to have this NAVIGATION menu on "NewMeetup" page as well
+// For that we can also wrap "Layout" around our content on a NewMeetup Page! But this is cumbersome for big applications!~
+// And that's now where "_app.js" files become important!!!
+
+// GO TO _app.js --- >>>
+// 349. The "_app.js" File & Layout Wrapper
